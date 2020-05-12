@@ -6,6 +6,7 @@ pipeline {
   options {
     // Stop the build early in case of compile or test failures
     skipStagesAfterUnstable()
+
   }
   stages {
     stage('Compile') {
